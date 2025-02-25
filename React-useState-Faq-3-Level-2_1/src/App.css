@@ -1,0 +1,60 @@
+/* Глобальные стили для темной темы */
+body {
+  background-color: #000000; /* Темный фон */
+  color: #ffffff; /* Белый текст */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Контейнер для фиксированной ширины и центрирования */
+.container {
+  max-width: 800px; /* Фиксированная ширина */
+  margin: 0 auto; /* Центрирование по горизонтали */
+  padding: 20px;
+}
+
+/* Стили для FAQ-элементов */
+.faq-item {
+  background-color: #757272; /* Темный фон для каждого элемента */
+  border: 1px solid #333; /* Граница */
+  border-radius: 8px; /* Скругленные углы */
+  margin-bottom: 15px; /* Отступ между элементами */
+  padding: 15px;
+  transition: all 0.3s ease; /* Плавные анимации */
+}
+
+.faq-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/* Стили для кнопки */
+.faq-item button {
+  background: none;
+  border: 1px solid #fc8686; /* Граница кнопки */
+  color: #ffffff;
+  font-size: 1.2em;
+  cursor: pointer;
+  width: 30px; /* Фиксированная ширина */
+  height: 30px; /* Фиксированная высота */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px; /* Скругленные углы */
+  transition: background-color 0.3s ease; /* Плавное изменение фона */
+}
+
+.faq-item button:hover {
+  background-color: #fc8686; /* Цвет фона при наведении */
+  color: #121212; /* Цвет текста при наведении */
+}
+
+/* Стили для ответов */
+.answer {
+  margin-top: 10px;
+}
+
+.answer p {
+  margin: 5px 0;
+}
