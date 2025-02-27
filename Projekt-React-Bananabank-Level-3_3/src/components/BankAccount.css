@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+body {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  min-height: 100vh; /* Минимальная высота экрана */
+  margin: 0;
+
+  background-image: url("../assets/bananaback.avif"); /* Указываем путь к изображению */
+  background-size: cover; /* Масштабируем на весь экран */
+  background-position: center; /* Центрируем картинку */
+  background-repeat: no-repeat; /* Отключаем повторение */
+}
+
+.konto {
+  text-align: center;
+  color: #6b3e26;
+  background-color: #fffbc9;
+  border: 1px solid #fbec5d;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.saldo {
+  background-color: #fbec5d;
+  color: #ffffff;
+  border-radius: 15px;
+  font-size: 50px;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+.geldbetrag {
+  margin: 10px 0;
+  padding: 8px;
+  min-width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.einzahlen,
+.auszahlen {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fbec5d;
+  color: #6b3e26;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.einzahlen:hover,
+.auszahlen:hover {
+  background-color: #f5c518;
+}
+
+.bank-title {
+  font-size: 34px;
+  font-weight: bold;
+  color: #fbec5d; /* Желтый цвет */
+  background-color: #6b3e26; /* Темно-коричневый фон */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
